@@ -1,0 +1,19 @@
+COL759 Assignment-2
+
+Name     : Varre Harsha Vardhan;
+Entry no : 2018mt60796
+
+this code is written in python3 and GNU MP is installed to it. gmpy2 is used in the code and version 2.1.0a1 is used. 
+
+--> the submitted file "2018mt60796_assignment2" has 5 files including this file.
+--> "main.py" is the code, "input" is the input file, "output_pre_generated" is the file with session details (x1, x2, x1,2 x2,1, e and d), "output" is file with encryption_text and decryption_text from respective users.
+
+code running instructions:
+--> it was written in python3. the file is named as main.cpp. entire code is in one file.
+--> "python3 main.py" will compile and execute the code.
+--> input is take from file "input" which consists 3 things. first is the text message which should be send by user1 to user2. second will be the prime(p) and third will be the primtive root of prime(g)
+--> output is given as per the rules mentioned in the piazza by instructor. 
+
+about the code: 
+--> there are 2 classes sender and receiver. sender takes the message and encrypt it with key e and sends the encrypted message to the receiver.
+--> the receiver reads the encrypted message and decrypts it using key d (ed==1(mod p-1)).
